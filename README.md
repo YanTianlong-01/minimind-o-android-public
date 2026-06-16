@@ -8,21 +8,28 @@ MiniMind-O 的 Android 端实现：在手机上完全离线运行的多模态语
 
 ---
 
-## 一键安装
+### 一键安装
 
-**GitHub Release 和 Hugging Face**
+**📱 方式一：GitHub Releases（APK）+ 🤗 Hugging Face（模型权重）**  
+[下载 APK](https://github.com/YanTianlong-01/minimind-o-android-public/releases/download/V0.0.1/app-debug.apk)  
+> 直接获取最新版 Android 安装包。
 
-[安卓APP APK V0.0.1](https://github.com/YanTianlong-01/minimind-o-android-public/releases/download/V0.0.1/app-debug.apk)
+[模型主页](https://huggingface.co/YanTianlong/MiniMind-O-s2tt/tree/main/preview)  
+> 预览版模型（含 `.onnx` 与 tokenizer 文件），正式版持续训练中。
 
-[Hugging Face 模型](https://huggingface.co/YanTianlong/MiniMind-O-s2tt/tree/main/preview)
+**☁️ 方式三：网盘打包下载（APK + 模型）**  
+[夸克网盘](https://pan.quark.cn/s/8cbd03c7afc7)  
+> 适合一次性获取全部资源，解压后按以下步骤配置。
 
-**网盘直接下载APK和模型**
+---
 
-[安卓 APP APK 和模型](https://pan.quark.cn/s/8cbd03c7afc7)
+#### ⚙️ 模型配置（APP 内操作）
 
-**APP内模型选择**
+1. 安装 APK 并打开应用；
+2. 点击主界面 **“CHOOSE MODEL FOLDER”**；
+3. 选择包含 `.onnx` 和 `tokenizer` 文件的目录（若下载的是 `.zip` 压缩包，**务必先解压**再选择）。
 
-安装好APK之后，打开APP，点击“CHOOSE MODEL FOLDER”，选择包含 `.onnx` 和 tokenizer 文件的目录，如果是zip先解压再选择。
+> ✅ 模型文件夹选择正确后，APP 会自动加载并进入就绪状态，即可开始离线语音对话。
 
 
 ## 安全声明
