@@ -2,6 +2,10 @@
 
 MiniMind-O 的 Android 端实现：在手机上完全离线运行的多模态语音对话 App。音频输入 → 语音识别 → 大模型推理 → 语音合成，**全程在设备本地用 ONNX Runtime 完成，不依赖任何服务器**。
 
+- 目前提供了基于MiniMind-O训练的MiniMind-O-s2tt同声传译模型
+- 目前的模型只是预览版，支持 输入英文语音 -> 输出中文文本和中文音频，正式版在训练中。
+- Android APP支持流式语音输入和输出，支持中途打断对话。
+
 ---
 
 ## 一键安装
@@ -16,9 +20,10 @@ MiniMind-O 的 Android 端实现：在手机上完全离线运行的多模态语
 
 [安卓 APP APK 和模型](https://pan.quark.cn/s/8cbd03c7afc7)
 
+**APP内模型选择**
+
 安装好APK之后，打开APP，点击“CHOOSE MODEL FOLDER”，选择包含 `.onnx` 和 tokenizer 文件的目录，如果是zip先解压再选择。
 
-目前模型只是预览版，正式版在训练中。
 
 ## 安全声明
 
