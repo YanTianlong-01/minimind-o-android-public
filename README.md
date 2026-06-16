@@ -6,13 +6,19 @@ MiniMind-O 的 Android 端实现：在手机上完全离线运行的多模态语
 
 ## 一键安装
 
-### GitHub Release 和 Hugging Face
+**GitHub Release 和 Hugging Face**
 
 [安卓APP APK V0.0.1](https://github.com/YanTianlong-01/minimind-o-android-public/releases/download/V0.0.1/app-debug.apk)
 
-### 网盘直接下载APK和模型
+[Hugging Face 模型](https://huggingface.co/YanTianlong/MiniMind-O-s2tt/tree/main/preview)
+
+**网盘直接下载APK和模型**
 
 [安卓 APP APK 和模型](https://pan.quark.cn/s/8cbd03c7afc7)
+
+安装好APK之后，打开APP，点击“CHOOSE MODEL FOLDER”，选择包含 `.onnx` 和 tokenizer 文件的目录，如果是zip先解压再选择。
+
+目前模型只是预览版，正式版在训练中。
 
 ## 安全声明（为什么这个 App 是安全、无后门的）
 
@@ -103,6 +109,10 @@ gradle/ , gradlew, gradlew.bat        # Gradle wrapper（无需本机预装 Grad
 - **UI**：纯 Android View（Java，无 XML layout）
 
 ---
+
+## 鸣谢
+
+- [MiniMind-O](https://github.com/jingyaogong/minimind-o) — MiniMind-O：从0训练0.1B能听能说能看的全模态Omni模型
 
 ## 许可证
 
