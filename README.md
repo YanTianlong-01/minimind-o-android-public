@@ -4,6 +4,16 @@ MiniMind-O 的 Android 端实现：在手机上完全离线运行的多模态语
 
 ---
 
+## 一键安装
+
+### GitHub Release 和 Hugging Face
+
+[安卓APP APK V0.0.1](https://github.com/YanTianlong-01/minimind-o-android-public/releases/download/V0.0.1/app-debug.apk)
+
+### 网盘直接下载APK和模型
+
+[安卓 APP APK 和模型](https://pan.quark.cn/s/8cbd03c7afc7)
+
 ## 安全声明（为什么这个 App 是安全、无后门的）
 
 这个 App 的全部源码都在本仓库公开，任何人可审计、可自行从源码构建。以下几点可验证 App 不含后门、不泄露隐私：
